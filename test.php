@@ -45,12 +45,10 @@
 <body>
 	<div id="wrapper">
 		<div id='left_title' style="width:300px;height:1000px;background-color:#eee;float:left">
-			<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
-            <!--?php require 'header.php' ?-->
-            <!--?php require 'sidebar.php' ?-->
-        </nav>
+			
 		</div>
-		<div class="row" id='right_1' style="width:900px;height:300px;background-color:#bee;float:left">
+		<div id='right_1' style="width:900px;height:300px;background-color:#bee;float:left;overflow-y:scroll">
+			<div class="row">
 			<div class="col-lg-12">
                         <div class="panel panel-default">
                             <!-- /.panel-heading -->
@@ -80,6 +78,7 @@
                         </div>
                         <!-- /.panel -->
                     </div>
+                </div>
 		</div>
 		<div id='right_2' style="width:900px;height:300px;background-color:#aae;float:left"></div>
 		<div id='right_3' style="width:900px;height:300px;background-color:#aaa;float:left"></div>
