@@ -234,6 +234,15 @@
             document.getElementById("panel-heading-category").innerHTML = "Frequency of '"+word+"' over category";
             document.getElementById("graph-panel-category").style.display = "block";
 
+            $("#right_1").css("height","100px");
+			 	$("#right_2").css("height","auto");
+			 	$("#right_3").css("height","100px");
+
+			 	$("#left_title").css("width","100px");
+			 	$("#right_1").css("width","1100px");
+			 	$("#right_2").css("width","1100px");
+			 	$("#right_3").css("width","1100px");
+
             function timestamp(date){
                 var myDate=date.split("-");
                 var newDate=myDate[1]+"/"+myDate[0]+"/"+myDate[2];
